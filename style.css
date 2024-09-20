@@ -584,6 +584,11 @@ input:checked + .slider:before {
     margin-top: 10px;
 }
 
+.credit{
+    font-size: 14px;
+    text-align: center;
+}
+
 @media screen and (max-width: 750px) {
     .gpt-query {
         height: 30px;
