@@ -1,15 +1,17 @@
 
-var video_names = ['bouquet','figurines','kitchen', 'donuts', 'teatime', 'bookstore', 'grocery', 'garden', 'shoes'];
+var video_names = ['Giraffe','FilamentRoll','CeilingFan', 'LetterU', 'Sandbox', 'Shark', 'Shelf', 'Sofa', 'SpaceStation', 'Table', 'TajMahal'];
 var download_paths = [
-  'data/high_res/bouquet.mp4',
-  'data/high_res/figurines.mp4',
-  'data/high_res/kitchen.mp4', 
-  'data/high_res/donuts.mp4', 
-  'data/high_res/teatime.mp4',
-  'data/high_res/bookstore.mp4',
-  'data/high_res/veggie_aisle.mp4',
-  'data/high_res/sunnyside.mp4',
-  'data/high_res/shoe_rack.mp4'
+  'data/high_res/Giraffe.mp4',
+  'data/high_res/FilamentRoll.mp4',
+  'data/high_res/CeilingFan.mp4',
+  'data/high_res/LetterU.mp4',
+  'data/high_res/Sandbox.mp4',
+  'data/high_res/Shark.mp4',
+  'data/high_res/Shelf.mp4',
+  'data/high_res/Sofa.mp4',
+  'data/high_res/SpaceStation.mp4',
+  'data/high_res/Table.mp4',
+  'data/high_res/TajMahal.mp4',
 ];
 var videos = [];
 
