@@ -60,25 +60,25 @@
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Kavish Kondap
                         <span class="text-star">1</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Tianshuang Qiu
                         <span class="text-star">1</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Zehan Ma
                         <span class="text-star">1</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Letian Fu
                         <span class="text-star">1</span>
                     </a>
                 </div>
@@ -86,41 +86,43 @@
             <div class="base-row author-row">
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Justin Kerr
                         <span class="text-star">1</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Huang Huang
                         <span class="text-star">1</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Kaiyuan Chen
                         <span class="text-star">1</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
                        Kuan Fang 
-                        <span class="text-star">3</span>
+                        <span class="text-star">2</span>
                     </a>
                 </div>
                 <div class="base-col author-col">
                     <a class="author-text">
-                       Andrew Goldberg 
+                        Ken Goldberg
                         <span class="text-star">1</span>
                     </a>
                 </div>
             </div>
-            <div>
-                <h1 id="uc-berkeley">UC Berkeley<sup>1</sup> Cornell<sup>2</sup></h1>
+            <div class="base-row affiliation-row">
+                <div class="base-col affiliation-col">
+                <h1 id="uc-berkeley"><sup>1</sup>UC Berkeley &nbsp <sup>2</sup>Cornell</h1>
+                </div>
             </div>
             <div class="link-labels base-row">
                 <!-- TODO: Update arxiv link -->
-                <div class="base-col icon-col"><a href="https://arxiv.org/abs/2303.09553" target="_blank"
+                <div class="base-col icon-col"><a href="" target="_blank"
                         class="link-block"><img
                             src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png"
                             alt="paper"
@@ -128,16 +130,10 @@
                             srcset="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01-p-500.png 500w, https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cab99df4998decfbf9e218e_paper-01.png 672w"
                             class="icon-img" /></a></div>
                 <!-- TODO: Update code link -->
-                <div class="base-col icon-col"><a href="https://github.com/kerrj/lerf" class="link-block"><img
+                <div class="base-col icon-col"><a href="" class="link-block"><img
                             src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5cae3b53b42ebb3dd4175a82_68747470733a2f2f7777772e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6f637469636f6e732f313032342f6d61726b2d6769746875622d3235362e706e67.png"
                             alt="paper" class="icon-img github-img-icon" /></a></div>
-                <!-- TODO: Turn this to video?-->
-                <!-- TODO: Update data link -->
-                <div class="column-2 base-col icon-col"><a
-                        href="https://drive.google.com/drive/folders/1vh0mSl7v29yaGsxleadcj-LCZOE_WEWB?usp=sharing"
-                        target="_blank" class="link-block"><img
-                            src="https://uploads-ssl.webflow.com/51e0d73d83d06baa7a00000f/5e7136849ee3b0a0c6a95151_database.svg"
-                            alt="paper" class="icon-img data-img-icon" /></a></div>
+                <!-- TODO: Add Video?-->
             </div>
             <div class="link-labels base-row">
                 <div class="base-col icon-col">
@@ -151,8 +147,8 @@
                 </div>
             </div>
             <h1 class="tldr">
-                <b>TL;DR</b>:
-                Blox-Net...
+                <!-- <b>TL;DR</b>: -->
+                Blox-Net generates designs from a constrained set of parts based on a text prompt and assembles them with a real robot!
             </h1>
             <video id="main-video" autobuffer muted autoplay loop controls>
                 <source id="mp4" src="data/teaser.mp4" type="video/mp4">
@@ -162,18 +158,8 @@
             <div class="base-row add-top-padding">
                 <h1 id="abstract">Overview</h1>
                 <p class="paragraph">
-                    <!-- &emsp; -->
-                    LERF optimizes a dense, multi-scale language 3D field by volume rendering CLIP embeddings along
-                    training rays, supervising these embeddings with multi-scale CLIP features across multi-view
-                    training images.
-                    <!-- LERF optimizes a dense, multi-scale language field by volume rendering CLIP
-                    embeddings along training rays,
-                    supervising these embeddings across training views to provide multi-view consistency.  -->
-                    After optimization,
-                    LERF can extract 3D relevancy maps for language queries interactively in real-time.
-                    LERF enables <b>pixel-aligned</b> queries of the distilled 3D CLIP embeddings <b>without relying on
-                        region proposals, masks, or fine-tuning</b>,
-                    supporting long-tail open-vocabulary queries hierarchically across the volume.
+                    We introduce a novel problem: Generative Design-for-Robot- Assembly. The task is to generate an assembly based on a natural language prompt (e.g., “giraffe”) and an image of available physical components, such as 3D-printed blocks. The output is an assembly, a spatial arrangement of these components, and instructions for a robot to build this assembly. The output must 1) resemble the requested object and 2) be reliably assembled by a 6 DoF robot arm with a suction gripper. We then present Blox-Net, a GDfRA system that combines gen- erative vision language models with well-established methods in computer vision, simulation, perturbation analysis, motion planning, and self-supervised physical robot experimentation to solve a class of GDfRA problems with minimal human supervision. Blox-Net achieved a Top-1 accuracy of 63.5% in the “recognizability” of its designed assemblies (eg, resembling giraffe as judged by a VLM). These designs, after automated pertubation redesign, were reliably assembled by a robot, achieving near-perfect success across 10 consecutive assembly iterations with human intervention only during reset prior to assembly. Surprisingly, this entire design process from textual word (“giraffe”) to reliable physical assembly is performed with zero human intervention.
+
                 </p>
             </div>
 
@@ -182,8 +168,7 @@
                 <div class="base-row add-top-padding">
                     <!-- <h1 id="abstract">Interacting with LERF on hand-captured scenes</h1> -->
                     <h1 class="tldr">
-                        <b>Click the thumbnails below to load scenes, use ON/OFF to toggle between RGB and 3D relevancy
-                            videos.</b>
+                        <b>Click the thumbnails below to watch Blox-Net build generated assemblies</b>
                     </h1>
 
                 </div>
@@ -195,11 +180,6 @@
 
                 <div class="video-bar">
                     <div id="opacity-col" class="base-col viewer-bar">
-                        <label class="switch">
-                            <input type="checkbox" id="opacity-toggle" checked>
-                            <span class="slider"></span>
-                            <span class="labels" data-on="ON" data-off="OFF"></span>
-                        </label>
                     </div>
                     <div class="base-col viewer-bar">
                         <button id="play-btn" class="video-btn fa fa-lg fa-pause" onclick="play_pause()"></button>
@@ -210,22 +190,10 @@
                     </div>
                 </div>
 
-                <!-- <div class="base-row">
-                <h1 id="abstract">Interacting with LERF on hand-captured scenes</h1>
-                <p class="paragraph-center">
-                    Use ON/OFF to toggle between RGB renders and 3D relevancy maps!
-                </p>
-            </div> -->
-
-                <!-- <video id="main-video" autobuffer muted autoplay loop controls>
-                <source id="mp4" src="data/grid.mp4" type="video/mp4">
-            </video> -->
-
                 <div id="main-results" onclick="play_pause()">
                     <canvas id="canvas"></canvas>
                     <canvas id="canvas-overlay"></canvas>
                 </div>
-
 
                 <div class="base-row" style="display: inline-block">
                     <button class="slide-arrow" id="slide-arrow-prev" onclick="slide_left()">
@@ -293,13 +261,9 @@
                 </div>
 
                 <div id="why-lerf">
-                    <h1> Why 3D CLIP embeddings?</h1>
+                    <h1> Blox-Net Design Generation</h1>
                     <p class="paragraph">
-                        With multi-view supervision, 3D CLIP embeddings are more robust to occlusion and
-                        viewpoint
-                        changes than 2D CLIP embeddings.
-                        3D CLIP embeddings also conform better to the 3D scene structure, giving them a crisper
-                        appearance.
+                        Blox-Net generates designs with...
                     </p>
                     <img id="pipeline-img" src="data/nerf_render.svg" />
                     <img id="why-lerf-img" src="data/2d-3d-lerf-vert.jpg" />
