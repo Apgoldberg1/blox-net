@@ -263,21 +263,15 @@
 
                 <div id="why-lerf">
                     <h1> Blox-Net Design Generation</h1>
+                    <img id="pipeline-img" src="data/Blox-Net-Pipeline-Jpeg.001.jpeg"/>
                     <p class="paragraph">
                         Blox-Net generates designs by sequentially prompting GPT-4o to develop a design plan and place blocks in a simulator. Then, GPT-4o receives visual and stability feedback from the simulator and makes adjustments. This process is performed 10 times in parallel and GPT-4o is used to select the design which looks the best. An automated perturbation redesign process introduces tolerances and improves stability to improve the constructability of the design.
                     </p>
-                    <img id="pipeline-img" src="data/nerf_render.svg" />
-                    <img id="why-lerf-img" src="data/2d-3d-lerf-vert.jpg" />
                 </div>
 
                 <div class="base-row add-top-padding">
-                    <h1>Multi-scale supervision</h1>
+                    <h1>Generation Examples</h1>
                     <p class="paragraph">
-                        To supervise language embeddings, we pre-compute an image pyramid of CLIP features for each
-                        training view.
-                        Then, each sampled ray during optimization is supervised by interpolating the CLIP embedding
-                        within
-                        this pyramid.
                     </p>
                 </div>
 

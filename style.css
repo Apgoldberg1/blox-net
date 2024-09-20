@@ -179,8 +179,8 @@ body {
 }
 
 #pipeline-img {
-    width: 60%;
-    max-width: 560px;
+    width: 100%;
+    max-width: 1000px;
     margin-top: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -618,7 +618,7 @@ input:checked + .slider:before {
     }
 
     #pipeline-img {
-        width: 90%;
+        width: 100%;
         max-width: 560px;
         margin-top: 20px;
         margin-right: 0px;
