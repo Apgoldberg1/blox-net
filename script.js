@@ -186,16 +186,8 @@ function resize_canvas() {
 
 window.onload = function() {
   const root = document.documentElement;
-  const checkbox = document.getElementById('opacity-toggle')
 
   load_videos();
-  checkbox.addEventListener('change', (event) => {
-    if (event.currentTarget.checked) {
-      root.style.setProperty("--opacity", `100%`);
-    } else {
-      root.style.setProperty("--opacity", `0%`);
-    }
-  })
 
   change_video_index(0);
   videos[0].play();
