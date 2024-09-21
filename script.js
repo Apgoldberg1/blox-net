@@ -34,6 +34,8 @@ $(function() {
       document.getElementById('thumb-6'),
       document.getElementById('thumb-7'),
       document.getElementById('thumb-8'),
+      document.getElementById('thumb-9'),
+      document.getElementById('thumb-10'),
     ];
     for (var i = 0; i < thumbnails.length; i++) {
       thumbnails[i].addEventListener('click', change_video_index.bind(this, i));
