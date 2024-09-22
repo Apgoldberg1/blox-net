@@ -427,6 +427,7 @@ input:checked + .slider:before {
     background-color: #2196F3;
     padding-bottom: 8px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .video-btn:hover {
@@ -649,4 +650,17 @@ input:checked + .slider:before {
     .slide-arrow {
         margin-top: 15px;
       }
+
+    /* buttons smaller on phone */
+    .video-btn {
+        width: 30px;
+        height: 30px;
+        margin: 0px 5px 0px 0px;
+        border-radius: 8px;
+        font-size: 15px;
+    }
+    .video-bar {
+        margin-top: -38px;
+        height: 30px;
+    }
 }
