@@ -72,7 +72,7 @@ body {
 }
 
 .author-row {
-    height: 30px;
+    height: 10px;
     margin-bottom: 10px;
 }
 
@@ -86,6 +86,10 @@ body {
     font-size: 14px;
     font-weight: 400;
     /* text-decoration: underline; */
+}
+.author-text span {
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .text-star {
@@ -116,7 +120,8 @@ body {
 }
 
 .icon-col {
-    width: 33.33333%;
+    width: 25%;
+    height: 40px;
 }
 
 .icon-img {
@@ -343,7 +348,7 @@ body {
 }
 
 .viewer-bar {
-    width: 33.3333%;
+    /* width: 80.3333%; */
 }
 
 .switch {
@@ -403,7 +408,7 @@ input:checked + .slider:before {
 
 .video-bar {
     width: 100%;
-    margin-top: -60px;
+    margin-top: -45px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 20px;
@@ -597,6 +602,16 @@ input:checked + .slider:before {
 
     .slide-arrow {
         margin-top: 20px;
+    }
+}
+
+/* for author names overflowing */
+@media screen and (max-width: 660px) {
+    .author-text {
+        font-size: 13px;
+    }
+    .author-row {
+        height: 35px;
     }
 }
 
