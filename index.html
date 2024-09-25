@@ -14,7 +14,7 @@
     <meta charset="utf-8" />
     <title>Blox-Net: Generative Design for Robot Assembly</title>
 
-    <meta content="Blox-Net ..."
+    <!-- <meta content="Blox-Net ..."
         name="description" />
     <meta content="" property="og:image" />
     <meta content="Blox-Net: Generative Design For Robot Assembly" property="twitter:title" />
@@ -22,7 +22,7 @@
         property="twitter:description" />
     <meta content="" property="twitter:image" />
     <meta property="og:type" content="website" />
-    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="summary_large_image" name="twitter:card" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
 
@@ -123,8 +123,8 @@
             <div class="link-labels base-row">
                 <i class="base-col icon-col"></i>
                 <i class="base-col icon-col fa fas fa-file-text" style="font-size: 40px" href=""></i>
-                <i class="base-col icon-col fa fas fa-brands fa-youtube" style="font-size: 40px" href=""></i>
-                <i class="base-col icon-col"></i>
+                <!-- <i class="base-col icon-col fa fas fa-brands fa-youtube" style="font-size: 40px" href=""></i>
+                <i class="base-col icon-col"></i> -->
             </div>
             <div class="link-labels base-row">
 
@@ -132,9 +132,9 @@
                 <div class="base-col icon-col">
                     <strong class="link-labels-text">Paper</strong>
                 </div>
-                <div class="base-col icon-col">
+                <!-- <div class="base-col icon-col">
                     <strong class="link-labels-text">Video</strong>
-                </div>
+                </div> -->
             </div>
             <h1 class="tldr">
                 <b>TL;DR</b>:
@@ -148,7 +148,7 @@
             <div class="base-row">
                 <div class="base-row add-top-padding">
                     <!-- <h1 id="abstract">Interacting with LERF on hand-captured scenes</h1> -->
-                    <h1 class="tldr">
+                    <h1 class="thumbnail-directions">
                         <b>Click the thumbnails below to watch Blox-Net build generated assemblies</b>
                     </h1>
 
@@ -202,15 +202,15 @@
                             </button>
                         </div>
                         <div class="base-col thumbnail-col">
-                            <button class="thumbnail-btn" id="thumb-3">
-                                <img src="data/thumbnails/letter_u.jpg" alt="letter u" class="thumbnails" />
-                                Letter U
-                            </button>
-                        </div>
-                        <div class="base-col thumbnail-col">
                             <button class="thumbnail-btn" id="thumb-4">
                                 <img src="data/thumbnails/sandbox.jpg" alt="sandbox" class="thumbnails" />
                                 Sandbox
+                            </button>
+                        </div>
+                        <div class="base-col thumbnail-col">
+                            <button class="thumbnail-btn" id="thumb-10">
+                                <img src="data/thumbnails/taj_mahal.jpg" alt="Taj Mahal" class="thumbnails" />
+                                Taj Mahal
                             </button>
                         </div>
                         <div class="base-col thumbnail-col">
@@ -244,9 +244,9 @@
                             </button>
                         </div>
                         <div class="base-col thumbnail-col">
-                            <button class="thumbnail-btn" id="thumb-10">
-                                <img src="data/thumbnails/taj_mahal.jpg" alt="Taj Mahal" class="thumbnails" />
-                                Taj Mahal
+                            <button class="thumbnail-btn" id="thumb-3">
+                                <img src="data/thumbnails/letter_u.jpg" alt="letter u" class="thumbnails" />
+                                Letter U
                             </button>
                         </div>
                     </div>
@@ -255,18 +255,15 @@
                     </button>
                 </div>
 
-            <div class="base-row add-top-padding">
-                <h1 id="abstract">Overview</h1>
-                <p class="paragraph">
-                    Generative Design-for-Robot-Assembly (GDfRA) involves generating and physically constructing a design based on a natural language prompt (e.g., “giraffe”) and an image of available physical components.
-                </p>
-                <p class="paragraph">
-                    Blox-Net is a GDfRA system which leverages a Vision Language Model, physics simulator, and real robot to generate and reliably assemble designs resembling a text prompt from 3D printed blocks with no human input.
-                </p>
-            </div>
+                <div class="base-row add-top-padding">
+                    <h1>Overview</h1>
+                    <p class="paragraph">
+                        Generative Design-for-Robot-Assembly (GDfRA) involves generating and physically constructing a design based on a natural language prompt (e.g., “giraffe”) and an image of available physical components. Blox-Net is a GDfRA system which leverages a Vision Language Model, physics simulator, and real robot to generate and reliably assemble designs resembling a text prompt from 3D printed blocks with no human input. Blox-Net achieves a 99.2% block placement success rate!
+                    </p>
+                </div>
 
 
-                <div id="why-lerf">
+                <div id="why-lerf" class="base-row add-top-padding">
                     <h1> Blox-Net Design Generation</h1>
                     <img id="pipeline-img" src="data/Blox-Net-Pipeline-Jpeg.001.jpeg"/>
                     <p class="paragraph">

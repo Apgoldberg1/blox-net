@@ -44,7 +44,17 @@ body {
 }
 .tldr {
     margin-top: 0px;
-    margin-bottom: 25px;
+    margin-bottom: r5px;
+    font-family: 'Open Sans',sans-serif;
+    color: #333;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.thumbnail-directions {
+    margin-top: 0px;
+    margin-bottom: 5px;
     font-family: 'Open Sans',sans-serif;
     color: #333;
     font-size: 18px;
@@ -60,6 +70,10 @@ body {
 .base-row {
     margin-left: -10px;
     margin-right: -10px;
+}
+
+.overview {
+    margin-top: 50px;
 }
 
 .base-col {
@@ -120,7 +134,7 @@ body {
 }
 
 .icon-col {
-    width: 25%;
+    width: 33%;
     height: 25px;
 }
 
