@@ -190,6 +190,14 @@ body {
     margin-right: 20px;
     margin-bottom: 10px;
 }
+#render-grid-img {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left:-15px;
+    margin-bottom: 10px;
+}
 
 #why-lerf-img {
     width: 30%;
