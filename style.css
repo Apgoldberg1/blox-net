@@ -99,11 +99,12 @@ body {
     color: #333;
     font-size: 14px;
     font-weight: 400;
-    /* text-decoration: underline; */
+    text-decoration: underline;
 }
 .author-text span {
     display: inline-block;
     white-space: nowrap;
+    text-decoration: underline;
 }
 
 .text-star {
@@ -112,6 +113,7 @@ body {
     display: inline-block;
     margin: 0px;
     font-size: 10px;
+    /* text-decoration: none; */
 }
 
 #uc-berkeley {
