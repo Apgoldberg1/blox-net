@@ -191,6 +191,7 @@ window.onload = function() {
 
   change_video_index(0);
   videos[0].play();
+  resize_canvas()
 
   const hoverImage = document.getElementById('hover-image');
   const gptQueries = document.querySelectorAll('.gpt-query');

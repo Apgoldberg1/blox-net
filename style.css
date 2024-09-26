@@ -107,7 +107,7 @@ body {
     text-decoration: underline;
 }
 
-.text-star {
+.author-text .text-star {
     position: relative;
     top: -7px;
     display: inline-block;
@@ -363,6 +363,10 @@ body {
     position: absolute;
     width: 1%;
 }
+
+/* #Giraffe.videos {
+    visibility: visible;
+} */
 
 #opacity {
     font-family: 'Open Sans',sans-serif;
