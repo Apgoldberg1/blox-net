@@ -101,10 +101,15 @@ body {
 .author-row {
     height: 10px;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .author-col {
     width: 20%;
+}
+
+.author-col-three {
+    width: 33%;
 }
 
 .author-text {
@@ -277,6 +282,11 @@ body {
     letter-spacing: 0;
     text-align: left;
 }
+
+.paragraph-link {
+
+}
+
 
 .paragraph-center {
     margin-top: 0px;
@@ -549,6 +559,7 @@ input:checked + .slider:before {
 
 .citation > p {
     margin-left: 20px;
+    font-size: 18px;
 }
 
 #codecell0 {
