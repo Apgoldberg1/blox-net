@@ -32,6 +32,19 @@ body {
     letter-spacing: 4;
 }
 
+.conference {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 1.3;
+}
+.conference-sub {
+    margin-top: -15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
 .subheader {
     margin-top: 0;
     margin-bottom: 15px;
@@ -136,7 +149,7 @@ body {
 }
 
 .icon-col {
-    width: 25%;
+    width: 20%;
     height: 25px;
 }
 

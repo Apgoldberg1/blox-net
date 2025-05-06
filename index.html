@@ -121,6 +121,8 @@
                 <h1 id="uc-berkeley"><sup>1</sup>UC Berkeley &nbsp <sup>2</sup>Cornell</h1>
                 </div>
             </div>
+
+
             <div class="link-labels base-row">
                 <i class="base-col icon-col"></i>
                 <a href="https://arxiv.org/abs/2409.17126" style="color: inherit;">
@@ -128,6 +130,9 @@
                 </a>
                 <a href="https://github.com/Apgoldberg1/blox-net-coderelease" style="color: inherit;">
                 <i class="base-col icon-col fa-brands fa-github" style="font-size: 40px" href=""></i>
+                </a>
+                <a href="art.html" style="color: inherit;">
+                <i class="base-col icon-col fa-solid fa-palette" style="font-size: 40px" href=""></i>
                 </a>
                 <i class="base-col icon-col"></i>
             </div>
@@ -140,7 +145,14 @@
                 <div class="base-col icon-col">
                     <strong class="link-labels-text">Code</strong>
                 </div>
+                <div class="base-col icon-col">
+                    <strong class="link-labels-text">Art</strong>
+                </div>
             </div>
+
+            <h2 class="conference">2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA</h2>
+            <p class="conference-sub">Presenting Thursday at 3:25 pm in the Manufacturing and Assembly Processes Session (407)</p>
+
             <h1 class="tldr">
                 <b>TL;DR</b>:
                 Blox-Net iteratively prompts a VLM with a simulation in-the-loop to generate designs based on a text prompt using a set of blocks and assembles them with a real robot!
@@ -272,13 +284,20 @@
                     <h1> Blox-Net Design Generation</h1>
                     <img id="pipeline-img" src="data/Blox-Net-Pipeline-Jpeg.001.jpeg"/>
                     <p class="paragraph">
-                        Blox-Net generates designs by sequentially prompting GPT-4o to develop a design plan and place blocks in a simulator. Then, GPT-4o receives visual and stability feedback from the simulator and makes adjustments. This process is performed 10 times in parallel and GPT-4o is used to select the design which looks the best. An automated perturbation redesign process introduces tolerances and improves stability to improve the constructability of the design.
+                        Blox-Net generates designs by sequentially prompting GPT-4o to develop a design plan and place blocks in a simulator. Then, GPT-4o receives visual and stability feedback from the simulator and makes adjustments. This process is performed 10 times in parallel and GPT-4o is used to select the design which looks the best. An automated perturbation redesign process introduces tolerances and improves stability to improve design constructability.
                     </p>
                 </div>
 
                 <div class="base-row add-top-padding">
                     <h1>Additional Generation Examples</h1>
                     <img src="data/Renders Grid.jpg" id="render-grid-img"/>
+                </div>
+
+                <div class="base-row add-top-padding">
+                    <h1>Arts and Robotics Program ICRA 2025</h1>
+                    <p class="paragraph">
+                        A closely related work analyzing Blox-Net's recreations of well-known art work will be presented in the ICRA '25 Art and Robotics Program. <b>Learn more: </b><a href="art.html" class="link-labels-text">https://bloxnet.org/art</a>
+                    </p>
                 </div>
 
 
@@ -344,5 +363,5 @@
         <source src="data/playback/TajMahal.mp4" type="video/mp4">
     </video>
 
-<p class="credit">Credit: The design of this project page is heavily based on <a href="https://www.lerf.io"/>LERF</a>.</p>
+<p class="credit">The design of this project page is heavily based on <a href="https://www.lerf.io">LERF</a>.</p>
 </body>
